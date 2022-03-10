@@ -1,0 +1,9 @@
+﻿  Pack.cpp
+c:\users\15228\desktop\软件开发综合实验-1\software\packetfile\packetfile\pack.cpp(62): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\15228\desktop\软件开发综合实验-1\software\packetfile\packetfile\pack.cpp(81): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\15228\desktop\软件开发综合实验-1\software\packetfile\packetfile\pack.cpp(132): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\15228\desktop\软件开发综合实验-1\software\packetfile\packetfile\pack.cpp(216): warning C4018: “<”: 有符号/无符号不匹配
+  Package.cpp
+  SearchFile.cpp
+  正在生成代码...
+  PacketFile.vcxproj -> C:\Users\15228\Desktop\软件开发综合实验-1\software\PacketFile\Debug\PacketFile.exe
