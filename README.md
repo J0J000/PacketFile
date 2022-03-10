@@ -1,4 +1,24 @@
-# 备份软件开发与实现
-Comprehensive-Experiment-of-software-development
+# 文件备份软件的开发与实现
+[https://github.com/J0J000/PacketFile](https://github.com/J0J000/PacketFile)
 
-[https://github.com/J0J000/Comprehensive-Experiment-of-software-development](https://github.com/J0J000/Comprehensive-Experiment-of-software-development)
+## 基本功能：
+### 1. 数据加密备份（原始数据打包、压缩、验证）
+
+以目录树结构实现数据打包，支持硬链接和软连接
+
+将原文件的字符替换为字符对应的哈夫曼编码，并写入新文件
+
+在每次备份时，均可以要求该软件在数据备份完成之后，对所备份数据的正确性进行检查
+
+### 2. 数据恢复（备份数据的解压、解包）
+
+根据文件头的哈夫曼编码表，构造哈夫曼树
+
+遍历哈夫曼树，为每个叶子节点的字符进行解码
+
+将原文件的二进制串替换为对应的字符，并写入新文件
+
+### 3. 基本的用户交互界面
+
+## 软件开发文档：
+需求分析、系统设计、编码实现、软件测试
